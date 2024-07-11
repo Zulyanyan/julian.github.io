@@ -1,0 +1,31 @@
+#experience-info {
+    min-height: 50vh;
+    background-color: rgb(4, 8, 53);
+}
+
+.exp img {
+    width: 300px;
+    margin-bottom: 50px;
+    box-shadow: 15px 15px 15px #310ff3; 
+    border-radius: 15px;
+  }
+
+  .exp img:hover {
+    width: 450px;
+    transition: all .5s ease;
+  
+  }
+
+  .exp h4 {
+    color: rgb(7, 1, 12);
+  }
+
+  .exp h3 {
+    color: rgb(95, 84, 102);
+  }
+
+  .exp {
+    background: #a6c8e9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }

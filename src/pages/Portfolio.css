@@ -1,0 +1,48 @@
+#portfolio-info {
+    background:linear-gradient(to right, hsla(0, 25%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(https://image.slidesdocs.com/responsive-images/background/data-technology-blue-abstract-business-glow-powerpoint-background_e667bfafcb__960_540.jpg)
+}
+
+#portfolio img {
+    box-shadow: 15px 15px 10px 10px #4abeec;
+    border-radius: 20px;
+}
+
+#portfolio .one {
+    width: 350px;
+}
+#portfolio .two {
+    width: 340px;
+}
+#portfolio .three {
+    width: 340px;
+}
+#portfolio .four {
+    width: 200px;
+}
+
+#portfolio h4:hover {
+    text-shadow: 0 0 20px #5bc2f1, 0 0 40px #1f63e0;
+}
+
+#portfolio img:hover {
+    width: 350px;
+    transition: all .5s ease;
+  
+  }
+
+  
+#portfolio .one:hover {
+    width: 400px;
+    transition: all .5s ease;
+  
+  }
+
+  #portfilio .btn-brand{
+    color:rgb(7, 130, 245);
+    background:rgb(101, 136, 250);
+ }
+
+ #portfolio .btn-brand:hover{
+    color: #7a96e2;
+    background: rgb(20, 29, 31);
+ }

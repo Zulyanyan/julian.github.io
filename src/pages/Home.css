@@ -1,0 +1,53 @@
+#home-info {
+  background:linear-gradient(to right, hsla(0, 25%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(https://image.slidesdocs.com/responsive-images/background/data-technology-blue-abstract-business-glow-powerpoint-background_e667bfafcb__960_540.jpg)
+}
+#home-info .card {
+  background: transparent;
+  border: 0;
+}
+
+#home-info .img{
+    align-self: center;
+}
+
+#home-info .lizel
+{
+    margin-top: 5%;
+}
+
+ #home-info .btn-brand{
+    color:rgb(101, 99, 211);
+    background:rgb(196, 201, 201);
+ }
+
+ #home-info .btn-brand:hover{
+    color: #959ff3;
+    background: rgb(94, 63, 236);
+ }
+ 
+
+  
+  
+  @keyframes screen {
+    from {
+      opacity: 0;
+    }
+  
+    25%{
+      opacity: 0.3;
+      transform: scale3d(3, 3, 4);
+    }
+  
+    50%{
+      opacity: 0.75;
+    }
+  
+    75%{
+      opacity: 1;
+  
+    }
+  
+    to{
+      opacity: 0;
+    }
+  }

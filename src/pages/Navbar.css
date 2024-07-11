@@ -1,0 +1,30 @@
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    font-weight: bold;
+    color: rgb(0, 34, 128);
+    text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
+    transition: all 0.4s ease;
+  }
+  
+  .navbar .navbar-brand:hover {
+    color: #fff;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 87, 128));
+    text-shadow: 0 0 20px rgb(95, 8, 236), 0 0 40px purple;
+    transition: all 0.4s ease;
+  }
+  
+  .navbar .navbar-brand {
+    color: rgb(3, 23, 49);
+  }
+  
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(17, 0, 110);
+  }
+  
+  .navbar .navbar-nav .nav-item .nav-link.active {
+    background-color: purple;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+  }
